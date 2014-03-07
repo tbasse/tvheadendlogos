@@ -10,6 +10,7 @@ app.use(function (req, res, next) {
   res.removeHeader('X-Powered-By');
   next();
 });
+app.use('/', express.directory(__dirname + '/logos/' + config.logo_type));
 app.use(express.static(__dirname + '/logos/' + config.logo_type, {
   maxAge: 8640000000
 }));
