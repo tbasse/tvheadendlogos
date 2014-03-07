@@ -1,0 +1,13 @@
+{
+  "name": "tvheadendlogos",
+  "version": "0.0.1",
+  "description": "Serving TV Logo for TVHeadend",
+  "main": "index.js",
+  "dependencies": {
+    "express": "~3.4.8"
+  },
+  "devDependencies": {},
+  "repository": "",
+  "author": "himself@tagedieb.com",
+  "license": "MIT"
+}
